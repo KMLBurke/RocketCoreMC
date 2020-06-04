@@ -1,0 +1,41 @@
+lastAccountName: Zhao_Zilong
+timestamps:
+  login: 1591236173678
+  logout: 1591236410310
+  lastteleport: 1590831849174
+  kits:
+    starter: 1590664424084
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 337.05778849850094
+  y: 76.0
+  z: 339.1217656212767
+  yaw: 254.46484
+  pitch: 6.8921185
+afk: false
+homes:
+  home:
+    world: world
+    x: 461.56828440808476
+    y: 66.0
+    z: 258.9948358626805
+    yaw: 75.17731
+    pitch: 28.6416
+  test:
+    world: world
+    x: 11.786625774579246
+    y: 92.0
+    z: -429.598982974946
+    yaw: 297.07715
+    pitch: -25.199936
+lastlocation:
+  world: world
+  x: 341.998947208108
+  y: 86.86394770412528
+  z: 269.58438224537775
+  yaw: 287.92072
+  pitch: 14.09227
+godmode: false
+money: '-243'
+socialspy: false

@@ -1,0 +1,22 @@
+lastAccountName: kevster098
+timestamps:
+  login: 1591196471224
+  logout: 1591196966660
+  lastteleport: 1590612978120
+ipAddress: 109.78.212.171
+logoutlocation:
+  world: world
+  x: 497.29352776667497
+  y: 71.5
+  z: 311.5806232484516
+  yaw: -216.63013
+  pitch: 0.31418765
+godmode: false
+lastlocation:
+  world: world
+  x: 500.28047854350655
+  y: 72.50133597911214
+  z: 317.21621947612067
+  yaw: 90.732605
+  pitch: 35.080933
+money: '2304.0'
