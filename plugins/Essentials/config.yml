@@ -23,13 +23,13 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: '4'
+ops-name-color: '8'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: '~'
+nickname-prefix: '<'
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
-max-nick-length: 15
+max-nick-length: 20
 
 # A list of phrases that cannot be used in nicknames. You can include regular expressions here.
 # Users with essentials.nick.blacklist.bypass will be able to bypass this filter.
@@ -39,7 +39,7 @@ nick-blacklist:
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
-ignore-colors-in-max-nick-length: false
+ignore-colors-in-max-nick-length: true
 
 # When this option is enabled, display names for hidden users will not be shown. This prevents players from being
 # able to see that they are online while vanished.
@@ -128,10 +128,10 @@ item-spawn-blacklist:
 permission-based-item-spawn: false
 
 # Mob limit on the /spawnmob command per execution.
-spawnmob-limit: 10
+spawnmob-limit: 500
 
 # Shall we notify users when using /lightning?
-warn-on-smite: true
+warn-on-smite: false
 
 # Shall we drop items instead of adding to inventory if the target inventory is full?
 drop-items-if-full: false
@@ -408,7 +408,7 @@ debug: false
 #locale: en
 
 # Turn off god mode when people leave the server.
-remove-god-on-disconnect: false
+remove-god-on-disconnect: true
 
 # Auto-AFK
 # After this timeout in seconds, the user will be set as AFK.
@@ -454,7 +454,7 @@ afk-list-name: "none"
 # When a player enters or exits AFK mode, should the AFK notification be broadcast
 # to the entire server, or just to the player?
 # When this setting is false, only the player will be notified upon changing their AFK state.
-broadcast-afk-message: true
+broadcast-afk-message: false
 
 # You can disable the death messages of Minecraft here.
 death-messages: true
@@ -466,11 +466,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "none"
+custom-join-message: "&a&l + &r&7{PLAYER}"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "none"
+custom-quit-message: "&c&l - &r&7{PLAYER}"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
